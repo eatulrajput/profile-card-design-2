@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body{
+    background: linear-gradient(90deg, #575fff, #65d6ff);
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c1 {
+    margin: 5px;
+    /* border: 1px solid #ccc; */
+    float: left;
+    width: 300px;
+    border-radius: 28px;
+    padding: 20px;
+    margin: 20px;
+    transition: .5s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.422);
+    width: 25%;
+    /* box-shadow: 0px 0px 40px 1px #777; */
+}
+
+
+div.c1 img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.display h2 img{
+    width: 6%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:baseline;
+    text-align: left;
+}
+
+
+.links a img{
+    width: 10%;
+    padding: 4px;
+}
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #575fff; 
+    border-radius: 28px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #272b74; 
+  }
+
+@media screen and (max-width: 700px) {
+    .c1{
+        width:auto;
+    }
+    
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+}
